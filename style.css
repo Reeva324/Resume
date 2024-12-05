@@ -1,0 +1,97 @@
+/* General Reset */
+body {
+    text-align: center;
+    margin: auto 2em;
+    background: linear-gradient(to right, #a6cfeb, #6bb9f0); /* Blue Gradient */
+    color: rgba(34, 4, 4, 0.863); /* White text color */
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 1.6em;
+    margin-top: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+/* Two-Column Layout */
+.resume-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Left Column */
+.left-column, .right-column {
+    width: 48%;
+}
+
+.left-column {
+    padding-right: 20px;
+}
+
+.right-column {
+    padding-left: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #2980b9;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
